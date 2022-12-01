@@ -4,7 +4,17 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-main {
+.gallery {
     display: flex;
-    background-color: aquamarine;
+}
+
+.gallery div {
+    width: 40rem;
+    height: 40rem;
+    display: inline-block;
+    border: 0.5rem solid rgb(2, 80, 32) ;
+    margin: 0.1rem;
+    padding: 0.1rem;
+    box-sizing:unset;
+    overflow: hidden;
 }
